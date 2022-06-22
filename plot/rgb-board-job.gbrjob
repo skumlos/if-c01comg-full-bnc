@@ -1,0 +1,128 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.12-84ad8e8a86~92~ubuntu20.04.1"
+    },
+    "CreationDate":  "2022-06-23T00:06:00+02:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "rgb-board",
+      "GUID": "7267622d-626f-4617-9264-2e6b69636164",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 178.150,
+      "Y": 129.650
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.250,
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "rgb-board-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-B_Cu.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rgb-board-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "rgb-board-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "rgb-board-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}

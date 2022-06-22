@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Molex-BNC)(type KiCad)(uri ${KIPRJMOD}/Molex-BNC.pretty)(options "")(descr ""))
+  (lib (name RCJ-22XX)(type KiCad)(uri ${KIPRJMOD}/RCJ-22XX.pretty)(options "")(descr ""))
+  (lib (name JS202011SCQN)(type KiCad)(uri ${KIPRJMOD}/JS202011SCQN.pretty)(options "")(descr ""))
+)
